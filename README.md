@@ -22,15 +22,15 @@ Check out the interactive demo on [StackBlitz](https://stackblitz.com/edit/ngx-l
 
 ## Installation
 
-Install ngx-loading via NPM, using the command below.
+Install ngx-loading-v18 via NPM, using the command below.
 
 ### NPM
 
 ```shell
-npm install --save ngx-loading
+npm install --save ngx-loading-v18
 ```
 
-NOTE: Version 17 of this package requires Angular 17 as a dependency. If you are using an older version of Angular, please install the relevant version e.g. 2.0.1 for Angular 2:
+NOTE: Version 1.0.0 of this package requires Angular 18 as a dependency. If you are using an older version of Angular, please install the relevant version e.g. 2.0.1 for Angular 2:
 
 ```shell
 npm install --save ngx-loading@2.0.1
