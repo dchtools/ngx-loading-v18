@@ -1,6 +1,6 @@
 {
-  "name": "ngx-loading",
-  "version": "18.0.0",
+  "name": "@dchtools/ngx-loading-v18",
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -10,7 +10,7 @@
     "lint": "ng lint",
     "prepare": "husky install"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "^18.0.0",
     "@angular/common": "^18.0.0",
@@ -47,12 +47,29 @@
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "~1.7.0",
     "lint-staged": "^12.3.4",
-    "ng-packagr": "^17.1.1",
+    "ng-packagr": "^18.0.0",
     "prettier": "2.5.1",
     "typescript": "~5.4.5"
   },
   "lint-staged": {
     "*.ts": "eslint --fix",
     "*.{ts,scss,md}": "prettier --write"
-  }
+  },
+  "description": "Forked versions runs with Angular V18",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dchtools/ngx-loading-v18.git"
+  },
+  "keywords": [
+    "Angular",
+    "loading",
+    "spinner"
+  ],
+  "author": "dchtools",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dchtools/ngx-loading-v18/issues"
+  },
+  "homepage": "https://github.com/dchtools/ngx-loading-v18#readme"
 }
