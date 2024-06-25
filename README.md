@@ -1,10 +1,8 @@
 # ngx-loading
 
-A customisable loading spinner for Angular applications.
+A customizable loading spinner for Angular applications.
 
-[![npm version](https://badge.fury.io/js/ngx-loading.svg)](https://badge.fury.io/js/ngx-loading)
-[![Monthly Downloads](https://img.shields.io/npm/dm/ngx-loading)]()
-![Known Vulnerabilities](https://snyk.io/test/github/Zak-C/ngx-loading/badge.svg)
+[![Monthly Downloads](hhttps://img.shields.io/npm/dm/@dchtools/ngx-loading-v18)]()
 
 ![ngx-loading](https://cloud.githubusercontent.com/assets/26901242/25317405/05a1ce4a-2870-11e7-8693-ed2394b54cba.gif)
 
@@ -27,14 +25,10 @@ Install ngx-loading-v18 via NPM, using the command below.
 ### NPM
 
 ```shell
-npm install --save ngx-loading-v18
+npm install --save @dchtools/ngx-loading-v18
 ```
 
-NOTE: Version 1.0.0 of this package requires Angular 18 as a dependency. If you are using an older version of Angular, please install the relevant version e.g. 2.0.1 for Angular 2:
-
-```shell
-npm install --save ngx-loading@2.0.1
-```
+NOTE: Version 1.0.0 of this package requires Angular 18 as a dependency. 
 
 ## Getting started
 
@@ -44,7 +38,7 @@ Import the `NgxLoadingModule` in your root application module:
 import { BrowserModule } from "@angular/platform-browser";
 import { NgModule } from "@angular/core";
 import { CoreModule } from "./core/core.module";
-import { NgxLoadingModule } from "ngx-loading";
+import { NgxLoadingModule } from "@dchtools/ngx-loading-v18";
 
 @NgModule({
   //...
