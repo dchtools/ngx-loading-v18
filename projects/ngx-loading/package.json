@@ -1,7 +1,7 @@
 {
   "name": "@dchtools/ngx-loading-v18",
-  "version": "1.0.3",
-  "description": "A customisable loading spinner for Angular applications.",
+  "version": "1.0.4",
+  "description": "A customizable loading spinner for Angular V18 applications.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dchtools/ngx-loading-v18.git"
