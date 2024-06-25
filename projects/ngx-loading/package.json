@@ -1,10 +1,10 @@
 {
-  "name": "ngx-loading",
+  "name": "@dchtools/ngx-loading-v18",
   "version": "18.0.0",
   "description": "A customisable loading spinner for Angular applications.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Zak-C/ngx-loading.git"
+    "url": "git+https://github.com/dchtools/ngx-loading-v18.git"
   },
   "keywords": [
     "Angular",
@@ -34,15 +34,15 @@
     "Angular spinner",
     "Angular loading spinner"
   ],
-  "author": "Zak Cox",
+  "author": "dchtools",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Zak-C/ngx-loading/issues"
+    "url": "git+https://github.com/dchtools/ngx-loading-v18.git/issues"
   },
-  "homepage": "https://github.com/Zak-C/ngx-loading#readme",
+  "homepage": "git+https://github.com/dchtools/ngx-loading-v18.git#readme",
   "peerDependencies": {
-    "@angular/common": "^18.0.0",
-    "@angular/core": "^18.0.0"
+    "@angular/common": "^18.0.3",
+    "@angular/core": "^18.0.3"
   },
   "dependencies": {
     "tslib": "^2.3.0"
